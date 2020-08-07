@@ -52,6 +52,7 @@
 #cal_wrap {
   display: flex;
   justify-content: center;
+  width: 100;
 }
 
 /* line 36, C:/Users/HP/Desktop/jun-2020/277.Charity _Non-profit/assets/scss/_color.scss */
