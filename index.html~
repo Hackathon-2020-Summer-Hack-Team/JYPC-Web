@@ -1,9 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 <head>
-	<meta charset="utf-8">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-NW2L9WT');</script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>JYPC | About Us</title>
+    <title>JPYC | By Youth, For Youth</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -13,11 +20,11 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 	<link rel="stylesheet" href="assets/css/slicknav.css">
-    <link rel="stylesheet" href="assets/css/flaticon.css">
-    <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
-    <link rel="stylesheet" href="assets/css/gijgo.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/animated-headline.css">
+   	 <link rel="stylesheet" href="assets/css/flaticon.css">
+   	 <link rel="stylesheet" href="assets/css/progressbar_barfiller.css">
+   	 <link rel="stylesheet" href="assets/css/gijgo.css">
+   	 <link rel="stylesheet" href="assets/css/animate.min.css">
+   	 <link rel="stylesheet" href="assets/css/animated-headline.css">
 	<link rel="stylesheet" href="assets/css/magnific-popup.css">
 	<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
 	<link rel="stylesheet" href="assets/css/themify-icons.css">
@@ -26,6 +33,10 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NW2L9WT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- ? Preloader Start -->
     <div id="preloader-active">
         <div class="preloader d-flex align-items-center justify-content-center">
@@ -97,7 +108,12 @@
                                                 <li><a href="index.html">Home</a></li>
                                                 <li><a href="about.html">About</a></li>
                       
-                                                <li style="color: #777;"><a href="blog.html">Updates</a>
+                                                <li style="color: #777;"><a href="blog.html">(CONSTRUCTION)</a>
+                                                    <ul class="submenu">
+                                                        <li><a href="blog.html">Blog</a></li>
+                                                        <li><a href="blog_details.html">Blog Details</a></li>
+                                                        <li><a href="elements.html">Element</a></li>
+                                                    </ul>
                                                 </li>
                                                 <li><a href="contact.html">Contact</a></li>
                                             </ul>
@@ -122,21 +138,57 @@
     </header>
     <!-- header end -->
     <main>
-    <!--? Hero Start -->
-    <div class="slider-area2">
-        <div class="slider-height2 d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-12">
-                        <div class="hero-cap hero-cap2 pt-20 text-center">
-                            <h2>About Us</h2>
+    <!-- slider Area Start-->
+    <div class="slider-area">
+        <div class="slider-active">
+            <!-- Single Slider -->
+            <div class="single-slider slider-height d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                            <div class="hero__caption">
+                                <h1 data-animation="fadeInUp" data-delay=".30s">We Learn<br> By Serving.</h1>
+                                <P data-animation="fadeInUp" data-delay=".30s"
+                                >We seek to unite our community in our efforts
+                                to provide educational and recreational
+                                activities</P>
+                                <!-- Hero-btn -->
+                                <div class="hero__btn">
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwweH0BVb8BLzd1umTx0ukLoq7F-zXSRWz4f0doM1CB2xpZQ/viewform" class="btn hero-btn mb-10"  data-animation="fadeInLeft" data-delay=".8s">Join</a>
+                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwweH0BVb8BLzd1umTx0ukLoq7F-zXSRWz4f0doM1CB2xpZQ/viewform" class="cal-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">
+                                        <i class="flaticon-null"></i>
+                                        <p>+1 504-919-0421</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Single Slider -->
+            <div class="single-slider slider-height d-flex align-items-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
+                            <div class="hero__caption">
+                                <h1 data-animation="fadeInUp" data-delay=".10s">Our Helping to<br> the world.</h1>
+                                <P data-animation="fadeInUp" data-delay=".10s" >Onsectetur adipiscing elit, sed do eiusmod tempor incididunt ut bore et dolore magnt, sed do eiusmod.</P>
+                                <!-- Hero-btn -->
+                                <div class="hero__btn">
+                                    <a href="industries.html" class="btn hero-btn mb-10"  data-animation="fadeInLeft" data-delay=".8s">Donate</a>
+                                    <a href="industries.html" class="cal-btn ml-15" data-animation="fadeInRight" data-delay="1.0s">
+                                        <i class="flaticon-null"></i>
+                                        <p>+1 504-919-0421</p>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Hero End -->
+    <!-- slider Area End-->
     <!--? Services Area Start -->
     <div class="service-area section-padding30">
         <div class="container">
@@ -153,7 +205,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-cat text-center mb-50">
                         <div class="cat-icon">
-                            <span class="flaticon-null-1"></span>
+                            <span class="flaticon-think"></span>
                         </div>
                         <div class="cat-cap">
                             <h5><a href="services.html">Education</a></h5>
@@ -164,7 +216,7 @@
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="single-cat active text-center mb-50">
                         <div class="cat-icon">
-                            <span class="flaticon-think"></span>
+                            <span class="flaticon-null-1"></span>
                         </div>
                         <div class="cat-cap">
                             <h5><a href="services.html">Recreation</a></h5>
@@ -178,7 +230,7 @@
                             <span class="flaticon-gear"></span>
                         </div>
                         <div class="cat-cap">
-                            <h5><a href="services.html">Extending Our Influence</a></h5>
+                            <h5><a href="services.html">Extending our Influence</a></h5>
                             <p>We have partnered with the Dawn Busters Kiwanis organization to help further our influence throughout not just our Kenner community but through all of Jefferson Parish. This vital part of our history is why we are dubbed the Jefferson Parish Youth.</p>
                         </div>
                     </div>
@@ -186,38 +238,215 @@
             </div>
         </div>
     </div>
-    <!-- Services Area End -->
-    <!--? About Law Start-->
-    <section class="about-low-area section-padding2">
+    
+    <!-- Featured_job_start -->
+    <!-- <section class="featured-job-area section-padding30 section-bg2" data-background="assets/img/gallery/section_bg03.png">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-10">
-                    <div class="about-caption mb-50">
-                        <!-- Section Tittle -->
-                        <div class="section-tittle mb-35">
-                            <span>About our Organization</span>
-                            <h2>We Are In A Mission To  Help Helpless</h2>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,mod tempor incididunt ut labore et dolore magna aliqua. Utnixm, quis nostrud exercitation ullamc.</p>
-                        <p>Lorem ipvsum dolor sit amext, consectetur adipisicing elit, smod tempor incididunt ut labore et dolore.</p>
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-9 col-md-10 col-sm-12"> -->
+                    <!-- Section Tittle -->
+                    <!-- <div class="section-tittle text-center mb-80">
+                        <span>What we are doing</span>
+                        <h2>We strive to interact with our community and respond to its needs</h2>
                     </div>
-                    <a href="about.html" class="btn">About US</a>
                 </div>
-                <div class="col-lg-6 col-md-12">
-                    <!-- about-img -->
-                    <div class="about-img ">
-                        <div class="about-font-img d-none d-lg-block">
-                            <img src="assets/img/gallery/about2.png" alt="">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-9 col-md-12"> -->
+                    <!-- single-job-content -->
+                    <!-- <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="company-img">
+                                <a href="#"><img src="assets/img/gallery/socialEvents1.png" alt=""></a>
+                            </div>
+                            <div class="job-tittle">
+                                <a href="#"><h4>Sunbasket State Festival</h4></a>
+                                <ul>
+                                    <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
+                                    <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
+                                    <li><i class="fas fa-map-marker-alt"></i>Kenner, Louisiana</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="about-back-img ">
-                            <img src="assets/img/gallery/about1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12"> -->
+                    <!-- single-job-content -->
+                    <!-- <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="company-img">
+                                <a href="#"><img src="assets/img/gallery/socialEvents2.png" alt=""></a>
+                            </div>
+                            <div class="job-tittle">
+                                <a href="#"><h4>FIRST LEGO League State Compeition</h4></a>
+                                <ul>
+                                    <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
+                                    <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
+                                    <li><i class="fas fa-map-marker-alt"></i>Blah, Louisiana</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12"> -->
+                    <!-- single-job-content -->
+                    <!-- <div class="single-job-items mb-30">
+                        <div class="job-items">
+                            <div class="company-img">
+                                <a href="#"><img src="assets/img/gallery/socialEvents3.png" alt=""></a>
+                            </div>
+                            <div class="job-tittle">
+                                <a href="#"><h4>NOLA Gaming Fest</h4></a>
+                                <ul>
+                                    <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
+                                    <li><i class="fas fa-sort-amount-down"></i>18.01.2021</li>
+                                    <li><i class="fas fa-map-marker-alt"></i>New Orleans, Louisiana</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-    <!-- About Law End-->
+    </section> -->
+    <!-- Featured_job_end -->
+    <!--? Team Ara Start -->
+    <div class="team-area pt-160 pb-160">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
+                    <!-- Section Tittle -->
+                    <div class="section-tittle section-tittle2 text-center mb-70">
+                        <span>Who are We</span>
+                        <h2>Our driven volunteers are always ready</h2>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="Marcel.png" alt="">
+                            <!-- Blog Social -->
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-caption">
+                            <h3><a href="instructor.html">Marcel Lashover</a></h3>
+                            <p>Head Advisor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="assets/img/McKinney.jpg" alt="">
+                            <!-- Blog Social -->
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-caption">
+                            <h3><a href="instructor.html">Kristi McKinney</a></h3>
+                            <p>Advisor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="assets/img/Michael.jpg" alt="">
+                            <!-- Blog Social -->
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-caption">
+                            <h3><a href="instructor.html">Michael Haffner</a></h3>
+                            <p>Advisor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="assets/img/Robayet.jpg" alt="">
+                            <!-- Blog Social -->
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-caption">
+                            <h3><a href="instructor.html">Robayet Hossain</a></h3>
+                            <p>Board President</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="assets/img/Chen.jpg" alt="">
+                            <!-- Blog Social -->
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-caption">
+                            <h3><a href="instructor.html">Jieni Chen</a></h3>
+                            <p>Board VP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="assets/img/gallery/team3.png" alt="">
+                            <!-- Blog Social -->
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-caption">
+                            <h3><a href="instructor.html">Erik Claros</a></h3>
+                            <p>Board Secretary</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="assets/img/Phil.jpg" alt="">
+                            <!-- Blog Social -->
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-caption">
+                            <h3><a href="instructor.html">Phillip Dinh</a></h3>
+                            <p>Board Treasurer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-team mb-30">
+                        <div class="team-img">
+                            <img src="assets/img/Pari.jpg" alt="">
+                            <!-- Blog Social -->
+                            <ul class="team-social">
+                                <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="team-caption">
+                            <h3><a href="instructor.html">Parijat Basak</a></h3>
+                            <p>Public Liason</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team Ara End -->
     <!-- Want To work -->
     <section class="wantToWork-area ">
         <div class="container">
@@ -225,11 +454,11 @@
                 <div class="row align-items-center justify-content-between">
                     <div class="col-xl-5 col-lg-9 col-md-8">
                         <div class="wantToWork-caption wantToWork-caption2">
-                            <h2>Let's Devote Ourselves to Serving Our Community Together</h2>
+                            <h2>Let's Change The World Together!</h2>
                         </div>
                     </div>
                     <div class="col-xl-2 col-lg-3 col-md-4">
-                        <a href="#" class="btn white-btn f-right sm-left">Become A Volunteer</a>
+                        <a href="#" class="btn white-btn f-right sm-left">Become A Youth Member</a>
                     </div>
                 </div>
             </div>
@@ -249,8 +478,22 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
-                                        <span>Mahatma Gandhu</span>
+                                        <span>Oscar Wilde</span>
+                                        <p>Writer</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-top-cap">
+                                    <p>“The smallest act of kindness is worth more than the grandest intention.”</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Testimonial -->
+                        <div class="single-testimonial text-center">
+                            <div class="testimonial-caption ">
+                                <!-- founder -->
+                                <div class="testimonial-founder">
+                                    <div class="founder-img mb-40">
+                                        <span>Mahatma Gandhi</span>
                                         <p>Revolutionary</p>
                                     </div>
                                 </div>
@@ -265,29 +508,12 @@
                                 <!-- founder -->
                                 <div class="testimonial-founder">
                                     <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
-                                        <span>Margaret Lawson</span>
-                                        <p>Creative Director</p>
+                                        <span>Maya Angelou</span>
+                                        <p>Poet</p>
                                     </div>
                                 </div>
                                 <div class="testimonial-top-cap">
-                                    <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Single Testimonial -->
-                        <div class="single-testimonial text-center">
-                            <div class="testimonial-caption ">
-                                <!-- founder -->
-                                <div class="testimonial-founder">
-                                    <div class="founder-img mb-40">
-                                        <img src="assets/img/gallery/testimonial.png" alt="">
-                                        <span>Margaret Lawson</span>
-                                        <p>Creative Director</p>
-                                    </div>
-                                </div>
-                                <div class="testimonial-top-cap">
-                                    <p>“I am at an age where I just want to be fit and healthy our bodies are our responsibility! So start caring for your body and it will care for you. Eat clean it will care for you and workout hard.”</p>
+                                    <p>"I have found that, among other benefits, giving liberates the soul of the giver."</p>
                                 </div>
                             </div>
                         </div>
@@ -297,9 +523,66 @@
         </div>
     </div>
     <!-- Testimonial End -->
-
+    <!--? Blog Area Start -->
+    <section class="home-blog-area section-padding30">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 col-md-9 col-sm-10">
+                    <div class="section-tittle text-center mb-90">
+                        <span>Latest Events</span>
+                        <h2>Latest News About Future Events</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="home-blog-single mb-30">
+                        <div class="blog-img-cap">
+                            <div class="blog-img">
+                                <img src="26841333_536536406724600_6953487806394815293_o.jpg" alt="">
+                                <!-- Blog date -->
+                                <div class="blog-date text-center">
+                                    <span>24</span>
+                                    <p>Now</p>
+                                </div>
+                            </div>
+                            <div class="blog-cap">
+                                <p>Our Founding Charter!</p>
+                                <h3><a href="blog_details.html">JPYC is proud to be a Kiwanis Organization!</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6">
+                    <div class="home-blog-single mb-30">
+                        <div class="blog-img-cap">
+                            <div class="blog-img">
+                                <img src="assets/img/gallery/home-blog2.png" alt="">
+                                <!-- Blog date -->
+                                <div class="blog-date text-center">
+                                    <span>May</span>
+                                    <p>2019</p>
+                                </div>
+                            </div>
+                            <div class="blog-cap">
+                                <p>Our Largest Event Yet!</p>
+                                <h3><a href="blog_details.html">JPYC hosted the Sunbasket Skate Festival, one of the largest youth-organized skateboarding events in NOLA!</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Area End -->
+    <div id="cal_wrap"></div>
+        <div id="cal">
+            <iframe id="calendar" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=Ym9kaGFhbnNoQGdtYWlsLmNvbQ&amp;src=M3VmdTdrMnBzZ252dW5zc2NzbW5vN3I3NnNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=czFmMWtpcm5hanAzMzdqaHJnMXRwbTJpamNAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZDhhcW9xYzZxdGQ4MnFpNjA2cHFydms0a2dAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZmFtaWx5MTM3NDgyNjg4NjU3MzU0MTA1MDhAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23039BE5&amp;color=%23D50000&amp;color=%23F4511E&amp;color=%23AD1457&amp;color=%239E69AF" style="border:solid 1px #777" width="1350" height="850" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </div>
     <!--? Count Down Start -->
-    <div class="count-down-area pt-25 section-bg" data-background="assets/img/gallery/section_bg02.png">
+    <div class="count-down-area pt-25 section-bg" data-background="assets/img/gallery/section_bg02.png" style="padding-top: 30px;">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-12 col-md-12">
@@ -308,33 +591,33 @@
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <!-- Counter Up -->
                                 <div class="single-counter text-center">
-                                    <span class="counter color-green">6,200</span>
+                                    <span class="counter color-green">70</span>
                                     <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
+                                    <p class="color-green">Members</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <!-- Counter Up -->
                                 <div class="single-counter text-center">
-                                    <span class="counter color-green">80</span>
+                                    <span class="counter color-green">20</span>
                                     <span class="plus">+</span>
-                                    <p class="color-green">Fund Raised</p>
+                                    <p class="color-green">Member Schools</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <!-- Counter Up -->
                                 <div class="single-counter text-center">
-                                    <span class="counter color-green">256</span>
-                                    <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
+                                    <span class="counter color-bkue">1</span>
+                                    <span>rst</span>
+                                    <p class="color-blue">County-Wide Key Club in the World</p>
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-6">
                                 <!-- Counter Up -->
                                 <div class="single-counter text-center">
-                                    <span class="counter color-green">256</span>
+                                    <span class="counter color-green">5</span>
                                     <span class="plus">+</span>
-                                    <p class="color-green">Donation</p>
+                                    <p class="color-green">Active Years</p>
                                 </div>
                             </div>
                         </div>
