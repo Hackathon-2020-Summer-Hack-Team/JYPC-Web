@@ -1,0 +1,22 @@
+{
+  "name": "jypc-web1",
+  "version": "1.0.0",
+  "description": "- The Website of the Jefferson Parish Youth Council",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hackathon-2020-Summer-Hack-Team/JYPC-Web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hackathon-2020-Summer-Hack-Team/JYPC-Web/issues"
+  },
+  "homepage": "https://github.com/Hackathon-2020-Summer-Hack-Team/JYPC-Web#readme",
+  "dependencies": {
+    "firebase": "^8.2.3"
+  }
+}
